@@ -14,14 +14,17 @@ html,
 body {
   min-height:100vh ;
   background-color: var(--Slate-300);
-  margin: 2rem 1rem;
   font-family: "Outfit", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
 }
 main {
   background-color: var(--White);
-  margin: auto;
   border-radius: 1rem;
-  padding: auto;
+  
 }
 .section-main {
   display: flex;
@@ -53,9 +56,16 @@ p {
   font: bolder;
   font-weight: 400;
 }
-@media (min-width: 1024px) {
-  main {
-    width: 30%;
-    margin-top: 4rem;
+
+@media (min-width:768px) {
+  main{
+    width: 45% ;
   }
+  
+}
+@media (min-width:1024px) {
+  main{
+    width: 25% ;
+  }
+  
 }
