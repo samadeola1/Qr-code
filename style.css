@@ -12,23 +12,23 @@
 }
 html,
 body {
-  height: 100vh;
+  min-height:100vh ;
   background-color: var(--Slate-300);
   margin: 2rem 1rem;
   font-family: "Outfit", serif;
 }
 main {
-  min-height: 70vh;
   background-color: var(--White);
   margin: auto;
   border-radius: 1rem;
+  padding: auto;
 }
 .section-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 img {
   width: 90%;
@@ -45,7 +45,7 @@ h3 {
 }
 p {
   text-align: center;
-  line-height: 1.6rem;
+  line-height: 1.2rem;
   font-size: 15px;
   margin-bottom: 2rem;
   padding: 0 2rem;
